@@ -1,1 +1,3 @@
-.data-area {}
+.th.col:hover {
+    font-style: italic;
+}

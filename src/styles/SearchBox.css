@@ -1,8 +1,28 @@
 .searchbox button {
-    border: 1px solid #101D42;
+    border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 1% 2% 1% 2%;   
+    margin: 2% 
+}
+
+.searchbox {
+    background-color: lightslategray;
+    width: 100%;
+
+}
+
+.form-control {
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
+    font-family: monospace;
+    font-size: 18px;
 }
 
 .searchbox button:hover {
-    background-color: #101D42;
+    background-color: black;
     color: #ffffff;
+    cursor: pointer;
 }

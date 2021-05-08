@@ -9,12 +9,12 @@
     border: 1px solid black;
   }
   
-  .datatable .col .pointer:after {
-    content: "";
-  }
+/* .datatable .col:hover{
   
-  .datatable .col .pointer:hover:after {
-    content: "*";
-    
-  }
+  font-style: italic;
+  color: antiquewhite;
+} */
   
+.Name:hover{
+  color:rebeccapurple;
+}

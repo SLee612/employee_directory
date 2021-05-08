@@ -25,9 +25,11 @@ function DataBody({ users }) {
                   className="img-responsive"
                 />
               </td>
-              <td data-th="Name" className="name-cell align-middle">
+              
+               <td data-th="Name" className="name-cell align-middle">
                 {name.first} {name.last}
               </td>
+              
               <td data-th="Phone" className="align-middle">
                 {phone}
               </td>
@@ -36,7 +38,7 @@ function DataBody({ users }) {
                   {email}
                 </a>
               </td>
-              <td data-th="DOB" className="align-middle">
+              <td data-th="Birthday" className="align-middle">
                 {formatDate(dob.date)}
               </td>
             </tr>
