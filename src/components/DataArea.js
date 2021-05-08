@@ -46,7 +46,7 @@ export default class DataArea extends Component {
               return a[heading] - b[heading];
             }
           } else {
-            // account for missing values
+            
             if (a[heading] === undefined) {
               return 1;
             } else if (b[heading] === undefined) {

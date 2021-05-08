@@ -1,7 +1,12 @@
 .datatable .col {
     cursor: pointer;
-    background-color: darkslategrey;
-    color: lightsteelblue;
+    background-color: darkslategray;
+    color: white;
+    font-size: 18px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid black;
   }
   
   .datatable .col .pointer:after {

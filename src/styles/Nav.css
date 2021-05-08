@@ -1,7 +1,9 @@
 .navbar {
-    padding: 20px 25px;
-    margin: 0 auto;
-    background-color: lightseagreen;
+    width: 100%;
+    background-color: lightslategray;
+    padding: 2% 0 2% 5%;
+    border: 1px solid black;
+    border-radius: 2px 2px 2px 2px;
   }
   
   .navbar-collapse {
