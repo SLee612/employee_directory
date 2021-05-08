@@ -33,15 +33,15 @@ export default class DataArea extends Component {
 
         const compareFnc = (a, b) => {
           if (this.state.order === "ascend") {
-            // account for missing values
+           
             if (a[heading] === undefined) {
               return 1;
             } else if (b[heading] === undefined) {
               return -1;
             }
-            // numerically
+            
             else if (heading === "name") {
-              return a[heading].first.localeCompare(b[heading].first);
+              return a[heading].last.localeCompare(b[heading].last);
             } else {
               return a[heading] - b[heading];
             }
@@ -54,7 +54,7 @@ export default class DataArea extends Component {
             }
             // numerically
             else if (heading === "name") {
-              return b[heading].first.localeCompare(a[heading].first);
+              return b[heading].last.localeCompare(a[heading].last);
             } else {
               return b[heading] - a[heading];
             }
@@ -68,7 +68,7 @@ export default class DataArea extends Component {
         console.log(event.target.value);
         const filter = event.target.value;
         const filteredList = this.state.users.filter(item => {
-          // merge data together, then see if user input is anywhere inside
+         
           let values = Object.values(item)
             .join("")
             .toLowerCase();

@@ -1,0 +1,15 @@
+.datatable .col {
+    cursor: pointer;
+    background-color: darkslategrey;
+    color: lightsteelblue;
+  }
+  
+  .datatable .col .pointer:after {
+    content: "";
+  }
+  
+  .datatable .col .pointer:hover:after {
+    content: "*";
+    
+  }
+  
